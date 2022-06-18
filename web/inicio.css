@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menunav{
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menunav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menunav ul li{
+    display: inline-block;
+}
+
+.aMenu{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 20px;
+}
+
+.aMenu:hover{
+    color: #F2A017;
+}
+
+.logo{
+    margin: 1%;
+}
+
+.divmenu{
+    float: right;
+    margin: 2%;
+}
+
+
+.contenedorIndex {
+    font-family: 'Poppins', sans-serif;
+    font-size: 23px;
+    margin: auto auto;
+    width: 100%;
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-content: center;
+    background-image: url(imgindex.png);
+    background-size: 100%;
+    padding: 0% 0% 4% 0%;
+}
+
+.contenedorIndex h2{
+    margin-left: 11%;
+    color: white;
+}
+
+.contenedorIndex span {
+    color: #ffa000;
+}
+
+.contenedorIndex img{
+    width: 82%;
+    margin-left: 4%;
+}
+
+
+.contenedorAcercaDe {
+    font-family: 'Poppins', sans-serif;
+    margin: 5% auto;
+    width: 90%;
+    max-width: 1220px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-rows: repeat(2, 1fr);
+    text-align: center;
+    align-items: center;
+}
+
+.contenedorAcercaDe h1 {
+    color: #F2A017;
+    font-size: 40px;
+}
+
+.contenedorFuncionalidad {
+    font-family: 'Poppins', sans-serif;
+    margin: 5% auto;
+    width: 90%;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-rows: repeat(3, 1fx);
+    grid-template-columns: repeat(4, 1fx);
+
+    grid-template-areas: "titulo titulo titulo titulo"
+        "imagen-1 texto-1 imagen-2 texto-2"
+        "imagen-3 texto-3 imagen-4 texto-4";
+
+    text-align: center;
+    align-items: center;
+}
+
+.contenedorFuncionalidad .titulo {
+    grid-area: titulo;
+    color: #F2A017;
+    font-size: 40px;
+}
+
+.contenedorFuncionalidad .imagen-1 {
+    grid-area: imagen-1;
+}
+
+.contenedorFuncionalidad .texto-1 {
+    grid-area: texto-1;
+}
+
+.contenedorFuncionalidad .imagen-2 {
+    grid-area: imagen-2;
+}
+
+.contenedorFuncionalidad .texto-2 {
+    grid-area: texto-2;
+}
+
+.contenedorFuncionalidad .imagen-3 {
+    grid-area: imagen-3;
+}
+
+.contenedorFuncionalidad .texto-3 {
+    grid-area: texto-3;
+}
+
+.contenedorFuncionalidad .imagen-4 {
+    grid-area: imagen-4;
+}
+
+.contenedorFuncionalidad .texto-4 {
+    grid-area: texto-4;
+}
+
+.contenedorFuncionalidad p {
+    text-align: left;
+}
+
+
+
+.contenedorVentajas {
+    font-family: 'Poppins', sans-serif;
+    background: #FFAD00;
+    margin: 8% auto;
+    max-width: 1350px;
+    max-height: 671px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+
+    grid-template-areas: "titulo titulo titulo titulo titulo"
+        "imgVentajas imgVentajas caja-1 texto-1 texto-1"
+        "imgVentajas imgVentajas caja-2 texto-2 texto-2"
+        "imgVentajas imgVentajas caja-3 texto-3 texto-3"
+        "imgVentajas imgVentajas caja-4 texto-4 texto-4";
+
+    text-align: center;
+    align-items: center;
+}
+
+.contenedorVentajas .titulo {
+    grid-area: titulo;
+    color: #fff;
+    font-size: 40px;
+}
+
+.contenedorVentajas .imgVentajas {
+    grid-area: imgVentajas;
+    width: 126%;
+}
+
+.contenedorVentajas .caja-1 {
+    grid-area: caja-1;
+}
+
+.contenedorVentajas .texto-1 {
+    grid-area: texto-1;
+}
+
+.contenedorVentajas .caja-2 {
+    grid-area: caja-2;
+}
+
+.contenedorVentajas .texto-2 {
+    grid-area: texto-2;
+}
+
+.contenedorVentajas .caja-3 {
+    grid-area: caja-3;
+}
+
+.contenedorVentajas .texto-3 {
+    grid-area: texto-3;
+}
+
+.contenedorVentajas .caja-4 {
+    grid-area: caja-4;
+}
+
+.contenedorVentajas .texto-4 {
+    grid-area: texto-4;
+}
+
+.contenedorVentajas p {
+    text-align: left;
+    color: #fff;
+    font-size: 17px;
+    padding: 0px 10px 0px 0px;
+}
+
+.contenedorVentajas img{
+    margin: auto auto auto 62%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contenedorContacto {
+    font-family: 'Poppins', sans-serif;
+    margin: auto auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    margin-top: -7%;
+}
+
+.contenedorContacto h1{
+    font-family: 'Poppins', sans-serif;
+    color: #F2A017;
+    font-size: 40px;
+    padding: 47px;
+    margin-left: 12%;
+    margin-bottom: -4%;
+}
+
+.labelIS {
+    font-family: 'Poppins', sans-serif;
+    color: #999999;
+    font-size: 18px;
+}
+
+.inputIS {
+    font-family: 'Poppins', sans-serif;
+    background-color: #E6E6E6;
+    border: none;
+    border-radius: 17px;
+    width: 75%;
+    padding: 17px;
+}
+
+.textareaformContact {
+    font-family: 'Poppins', sans-serif;
+    background-color: #E6E6E6;
+    border: none;
+    border-radius: 17px;
+    width: 75%;
+    padding: 17px;
+    resize: none;
+}
+
+.imgFooter{
+    padding: 19px 87px;
+    height: 71px;
+}
+
+.textFooter{
+    text-align: right;
+    font-family: 'Poppins', sans-serif;
+    float: right;
+    padding-top: 44px;
+    padding-right: 49px;
+    font-size: 19px;
+}
+
+.footerDetalles{
+    color: white;
+    background-color: #666666;
+    margin-top: 28px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -8px;
+}
