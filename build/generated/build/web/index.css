@@ -1,0 +1,96 @@
+@font-face {
+    font-family: poppins;
+    src: url(fonts/poppins-medium.ttf);
+}
+
+@font-face {
+    font-family: bahnschrift;
+    src: url(fonts/bahnschrift.ttf);
+}
+
+
+
+::before,
+::after {
+  position: absolute;
+  content: "";
+}
+
+.btn {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 19px 0px 0px 15px;
+    border-radius: 20px;
+}
+.btn span {    
+   font-family: bahnschrift;     
+   position: relative;
+   display: inline-block;
+   font-size: 20px;
+   padding: 8px 8px;
+   transition: 0.3s;
+}
+
+/*--- btn-2 ---*/
+.btn-2::before {
+    background-color: #F2A017;
+    transition: 0.3s ease-out;
+    border-radius: 18px;
+}
+.btn-2 span {
+  color: #F2A017;
+  transition: 0.2s;
+}  
+.btn-2 span:hover {
+  color: rgb(255,255,255);
+  transition: 0.2s 0.1s;
+}
+
+
+/*Btn-Enviar*/
+
+.btnE {
+  position: relative;
+  display: inline-block;
+  width: 82%;
+  background-color: rgb(28, 31, 30);;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+}
+.btnE span {    
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  display: inline-block;
+  font-size: 25px;
+  font-weight: inherit;
+  padding: 1px 8px;
+  transition: 0.3s;
+}
+
+.btn-1::before {
+  background-color: #F7931E;
+  transition: 0.3s ease-out;
+  border-radius: 13px;
+}
+.btn-1 span {
+  color: rgb(255,255,255);
+  
+  transition: 0.2s 0.1s;
+}
+.btn-1 span:hover {
+  color: rgb(255,255,255);
+  transition: 0.2s 0.1s;
+}
+
+.btnE.hover-filled-slide-down::before {
+  bottom: 0; left: 0; right: 0; 
+  height: 100%; width: 100%;
+}
+.btnE.hover-filled-slide-down:hover::before {
+  height: 0%;
+}
