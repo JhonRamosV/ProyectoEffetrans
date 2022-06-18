@@ -1,0 +1,30 @@
+SMAP
+administradorOferta_jsp.java
+JSP
+*S JSP
+*F
++ 0 administradorOferta.jsp
+administradorOferta.jsp
++ 1 Sesiones.jsp
+Sesiones.jsp
+*L
+5,9:55
+5#1,8:63
+14,13:72
+26,29:85
+13#0,55:113
+68:168,3
+69,277:171
+345,8:448
+352,3:456
+355,7:459,3
+362,3:480
+365,6:484
+370,10:490
+380:500,3
+381,9:503
+390:512,3
+391,2:515
+393:517,3
+394,102:520
+*E
